@@ -8,4 +8,10 @@ class ProdutoLimpezaBiodegradavel implements ProdutoEcologico{
         this.preco=preco;
         this.volume= volume;
     }
-}
+    exibir(){
+        console.log("nome:"+ this.nome + "preco:" + this.preco + "volume:" + this.volume)
+    }
+    cadastrar():void{
+        console.log("volume:" + this.volume)
+    }
+    }

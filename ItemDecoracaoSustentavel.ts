@@ -13,4 +13,10 @@ constructor(nome:string, preco:number, material:string, dimensoes:{ largura:numb
     this.dimensoes=dimensoes;
 
 }
+exibir(){
+    console.log("nome:"+ this.nome + "preco:" + this.preco + "Material:" + this.material + "dimensoes:" + this.dimensoes)
+}
+cadastrar():void{
+    console.log("material:" + this.material)
+}
 }
